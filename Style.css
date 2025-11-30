@@ -1,0 +1,456 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #8F2A2E !important;
+    font-family: "Raleway", sans-serif;
+    text-decoration: none !important;
+}
+
+body a {
+    text-decoration: none;
+}
+
+.texto_raleway {
+    font-weight: 400;
+    color: white;
+}
+
+/* NAV */
+.contenedor {
+    margin: auto;
+    max-width: 1200px;
+}
+
+.nav {
+    padding: 25px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navegador_menu {
+    display: flex;
+    gap: 30px;
+}
+
+.redes {
+    display: flex;
+    gap: 15px;
+}
+
+i {
+    color: white;
+    font-size: 30px;
+}
+
+/* BANNER */
+.banner {
+    display: flex;
+    align-items: start;
+}
+
+.banner_informacion img {
+    margin-top: 60px;
+    width: 80%;
+    max-width: 500px;
+    height: 200px;
+}
+
+.banner_integrantes img {
+    margin-top: 120px;
+    max-width: 600px;
+}
+
+.banner_img {
+    background-image: url(img/fondo.png);
+    width: 100%;
+    height: 710px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    z-index: -2;
+}
+
+.banner_texto {
+    width: 400px;
+    position: relative;
+    top: 50px;
+}
+
+/* CARROUSEL */
+#carouselExampleFade .carousel-item {
+    height: 800px;
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-item-Reynols {
+    background-image: url('img/danReynols_fondo.png');
+}
+
+.carousel-item-wayne {
+    background-image: url('img/wayneSermon_fondo.png');
+}
+
+.carousel-item-daniel {
+    background-image: url('img/danielPlatzman_fondo.png');
+}
+
+.carousel-item-ben {
+    background-image: url('img/benMcKee_fondo.png');
+}
+
+.banner-integrante {
+    display: flex;
+    align-items: center;
+    max-width: 1400px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.img-integrante {
+    width: 55%;
+}
+
+.img-integrante .principal-img {
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    justify-content: left;
+}
+
+.info-integrante {
+    width: 35%;
+    color: #A4222C;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.info-integrante h1 {
+    font-family: "Cinzel Decorative";
+    font-size: 45px;
+    font-weight: 900;
+}
+
+.rol {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.descripcion {
+    color: #1f1f1f;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* ALBUM */
+
+.album {
+    margin: 0;
+    padding: 10%;
+    text-align: center;
+    background-image: url("img/fondoAlbum.png");
+    background-size: cover;
+    height: 1500px;
+}
+
+.album h1{
+    font-family: "Cinzel Decorative";
+    font-size: 45px;
+    font-weight: 600; 
+}
+.album p {
+    padding-bottom: 50px;
+}
+
+#carouselExampleAlbum .carousel-item {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.card {
+    padding-top: 15px;
+    padding-top: 30px;
+    border-radius: 50px !important;
+    border: 3px solid #FFF !important;
+    opacity: 0.9;
+    background: linear-gradient(180deg,rgba(229, 101, 97, 1) 0%, rgba(111, 37, 43, 1) 46%);
+}
+
+.card:hover {
+    box-shadow: 0 8px 25px rgba(255, 254, 254, 0.25);
+}
+
+.card-body img {
+    width: 230px;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+
+.btn-primary {
+    background-color: #fff !important;
+    color: #6F252B !important;
+    border: none !important;
+}
+
+/* album modal */
+.album-modal {
+    margin-top: 18%;
+    border-radius: 29px !important;
+    border: 3px solid #FFF !important;
+    background: linear-gradient(180deg, rgba(229, 101, 97, 1) 0%, rgba(111, 37, 43, 1) 46%);
+    padding: 30px;
+    color: white;
+    box-shadow: 0 8px 25px rgba(255, 254, 254, 0.15);
+}
+
+.album-title{
+ font-family: "Cinzel Decorative";
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.album-modal .btn-close {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    filter: invert();
+    opacity: 1;
+}
+
+.modal-body-info {
+    text-align: center;
+    color: #FFF;
+}
+
+.modal-body-info h2 {
+    padding-top: 20px;
+}
+
+.card-body img,
+.album-img {
+    width: 230px;
+    height: 230px;
+    border-radius: 38px;
+    object-fit: cover;
+}
+
+.track {
+    background: rgba(255, 255, 255, 0.15);
+    border: 3px solid #FFF;
+    border-radius: 30px;
+    padding: 12px 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    color: white;
+    font-size: 18px;
+}
+
+.play-btn {
+    background-color: transparent;
+    color: #FFF;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+
+/*Video y donde escucharlos*/
+
+.ultimo_lanzamieton h2{
+    font-family: "Cinzel Decorative";
+    font-size: 32px;
+    font-weight: 600;
+    margin: 50px 0;
+    color: #FFF;
+}
+
+.video{
+    font-size: 500px;
+    border-radius: 25px;
+}
+
+.escuchalos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.escuchalos-contain{
+    display: flex;
+    gap: 20px;
+}
+
+/* proximo concierto */
+
+.proximo_concierto {
+    display: flex;
+    padding-top: 100px;
+}
+
+.proximo_concierto_informacion{
+    width: 50%;
+    padding: 60px 60px 60px 0;
+}
+
+.proximo_concierto_informacion h2{
+    padding-bottom: 40px;
+    font-family: "Cinzel Decorative";
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: white;
+}
+
+/* Galeria fotografica */
+
+.galeria h2{
+  padding: 100px 60px 40px 0;
+    font-family: "Cinzel Decorative";
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: white;
+}
+
+.galeria_img img{
+margin: 4px;
+}
+
+@media (max-width: 800px) {
+    /* nav */
+    .nav{
+        margin: 0 !important;
+        margin: auto !important;
+        width: 90%;
+        justify-content: center;
+    }
+
+    .nav .redes{
+        display: none;
+    }
+
+    .nav .navegador_menu{
+        gap: 15px;
+        font-size: 14px;
+    }
+
+    /* banner principal */
+    .banner{
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+    .banner_informacion img {
+        width: 50%;
+        margin-top: 0;
+    }
+    .banner_informacion h5 {
+        font-size: 14px;
+    }
+
+    .banner_integrantes img {
+       width: 80%;
+       margin: 0;
+    }
+
+    /* slide integrantes */
+    .banner-integrante{
+        flex-direction: column-reverse;
+        width: 75%;
+        height: auto;
+    }
+    .banner-integrante h1{
+        font-size: 25px;
+    }
+
+    .banner-integrante p{
+        font-size: 14px;
+    }
+
+    .info-integrante{
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .img-integrante {
+    width: 120%;
+    margin: auto;
+    margin-top: -80px;
+    
+    }
+
+    #carouselExampleFade .carousel-item{
+        height: 550px;
+    }
+
+    /* slide album */
+    .album{
+        padding: 0 10%;
+        margin: auto;
+        margin-top: 40px;
+    }
+
+    #carouselExampleAlbum{
+        display: none;
+    }
+
+    #carouselExampleAlbumMobile .carousel-item .card{
+        margin: auto;
+    }
+
+    .escuchalos{
+        flex-direction: column;
+        gap: 0;
+    }
+
+    /* proximo_concierto */
+    
+    .proximo_concierto{
+        padding: 0;
+        flex-direction: column;  
+        align-items: center;       
+    }
+
+    .proximo_concierto_informacion{
+        padding: 26px 0px;
+        width: 90%;
+        text-align: center;
+    }
+
+    .proximo_concierto iframe{
+        width: 100% !important;
+    }
+
+    .galeria{
+    display: none;
+    }
+
+    #carouselExampleGaleria .carousel-item .carousel-inner{
+        margin:auto !important;
+    }
+
+}
+
+
+@media (min-width: 800px) {
+    #carouselExampleAlbumMobile{
+        display: none;
+    }
+    
+    #carouselExampleGaleria{
+        display: none;
+    }
+
+}
+
+
